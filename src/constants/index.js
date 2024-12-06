@@ -25,6 +25,14 @@ import {
   threejs,
   iiits,
   nvs,
+  cplusplus,
+  c,
+  bootstrap,
+  java,
+  mysql,
+  numpy,
+  python,
+  tensorflow,
 } from "../assets";
 
 export const navLinks = [
@@ -71,45 +79,44 @@ const techCategories = [
   {
     category: "Languages",
     technologies: [
-      { name: "C++", icon: "c++-icon" },
-      { name: "Python", icon: "python-icon" },
-      { name: "Java", icon: "java-icon" },
-      { name: "C", icon: "c-icon" },
+      { name: "C", icon: c },
+      { name: "C++", icon: cplusplus },
+      { name: "Python", icon: python },
+      { name: "Java", icon: java },
     ],
   },
   {
     category: "Web Technologies",
     technologies: [
-      { name: "HTML", icon: "html-icon" },
-      { name: "CSS", icon: "css-icon" },
-      { name: "JavaScript", icon: "javascript-icon" },
-      { name: "React", icon: "react-icon" },
-      { name: "Node.js", icon: "nodejs-icon" },
-      { name: "Tailwind CSS", icon: "tailwind-icon" },
-      { name: "Bootstrap", icon: "bootstrap-icon" },
+      { name: "HTML", icon: html },
+      { name: "CSS", icon: css },
+      { name: "JavaScript", icon: javascript },
+      { name: "React", icon: reactjs },
+      { name: "Node.js", icon: nodejs },
+      // { name: "Tailwind CSS", icon: tailwind },
     ],
   },
   {
     category: "Databases",
     technologies: [
-      { name: "MongoDB", icon: "mongodb-icon" },
-      { name: "MySQL", icon: "mysql-icon" },
+      { name: "MongoDB", icon: mongodb },
+      { name: "MySQL", icon: mysql },
     ],
   },
-  {
-    category: "Machine Learning",
-    technologies: [
-      { name: "TensorFlow", icon: "tensorflow-icon" },
-      { name: "PyTorch", icon: "pytorch-icon" },
-      { name: "Numpy", icon: "numpy-icon" },
-    ],
-  },
+  // {
+  //   category: "Machine Learning",
+  //   technologies: [
+  // { name: "TensorFlow", icon: tensorflow },
+  // { name: "PyTorch", icon:  },
+  // { name: "Numpy", icon: "numpy-icon" },
+  //   ],
+  // },
   {
     category: "Others",
     technologies: [
-      { name: "Git", icon: "git-icon" },
-      { name: "Docker", icon: "docker-icon" },
-      { name: "AWS", icon: "aws-icon" },
+      { name: "Git", icon: git },
+      { name: "Docker", icon: docker },
+      // { name: "AWS", icon:  },
     ],
   },
 ];
@@ -190,7 +197,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Health Care",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [

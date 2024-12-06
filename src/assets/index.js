@@ -20,6 +20,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cplusplus from "./tech/cplusplus.png";
+import c from "./tech/c.png";
+import bootstrap from "./tech/bootstrap.png";
+import java from "./tech/java.png";
+import mysql from "./tech/database-mysql.svg";
+import numpy from "./tech/numpy.png";
+import python from "./tech/python.png";
+import tensorflow from "./tech/tensorflow.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -64,4 +72,12 @@ export {
   tripguide,
   iiits,
   nvs,
+  cplusplus,
+  c,
+  bootstrap,
+  java,
+  mysql,
+  numpy,
+  python,
+  tensorflow,
 };
